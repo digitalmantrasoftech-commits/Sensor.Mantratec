@@ -1,0 +1,370 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section metatags{
+
+    <title>Latest Blogs & Updates of Biometrics | Mantra</title>
+    <meta name="keywords" content="Biometric blogs, Biometric Updates, Biometric industry blogs, Biometric News" />
+    <meta name="description" content="Check out our latest blogs, news and updates on biometric industry developments and trends. Visit our site to learn more about biometrics!" />
+    <link rel="canonical" href="https://sensor.mantratec.com/Blog" />
+
+    <meta property="og:title" content="Latest Blogs & Updates of Biometrics | Mantra" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sensor.mantratec.com/Blog" />
+    <meta property="og:image" content="https://sensor.mantratec.com/Assets/Images/blog/blog.jpg" />
+    <meta property="og:site_name" content="Mantra" />
+    <meta property="fb:app_id" content="1557512364360593" />
+    <meta property="og:description" content="Check out our latest blogs, news and updates on biometric industry developments and trends. Visit our site to learn more about biometrics!" />
+
+    <meta name="twitter:title" content="Latest Blogs & Updates of Biometrics | Mantra" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://sensor.mantratec.com/Blog" />
+    <meta name="twitter:image" content="https://sensor.mantratec.com/Assets/Images/blog/blog.jpg" />
+    <meta name="twitter:description" content="Check out our latest blogs, news and updates on biometric industry developments and trends. Visit our site to learn more about biometrics!" />
+
+}
+
+@section top_allpages{
+
+    <link href="@Url.Content("~/Assets/plugin/DataTables/jquery.dataTables.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Assets/CSS/blog/blog.css")" rel="stylesheet" />
+
+}
+
+<section class="page_header_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                <div class="page_title_section">
+                    <h1>Blog</h1>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="@Url.Content("/")">Home</a>
+                        </li>
+                        <li>
+                            <span>/</span>
+                        </li>
+                        <li>
+                            <strong>Blog</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog_list_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                <table id="blog_deta" class="table_blog_list dataTable no-footer">
+                    <thead>
+                        <tr>
+                            <th>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/How-secure-biometric-authentication-against-cyberattacks")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2025/07/How-secure-biometric-authentication-against-cyberattacks-sm.jpg")"
+                                         alt="How Secure Biometric Authentication Against Cyberattacks"
+                                         title="How Secure Biometric Authentication Against Cyberattacks"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>14 July 2025</p>
+                                    <h4>How Secure Biometric Authentication Against Cyberattacks</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Fingerprint-minutiae-demystified-key-to-reliable-biometric-matching")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2025/06/Fingerprint-minutiae-demystified-key-to-reliable-biometric-matching-sm.jpg")"
+                                         alt="Fingerprint Minutiae Demystified"
+                                         title="Fingerprint Minutiae Demystified"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>9 June 2025</p>
+                                    <h4>Fingerprint Minutiae Demystified: Key To Reliable Biometric Matching</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/How-businesses-can-streamline-customer-identity-verification")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2025/04/How-businesses-can-streamline-customer-identity-verification-sm.jpg")"
+                                         alt="customer identity verification"
+                                         title="customer identity verification"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>21 April 2025</p>
+                                    <h4>How Businesses Can Streamline Customer Identity Verification?</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Biometrics-future-contact-less-patient-authentication-healthcare")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2025/03/Biometrics-future-contact-less-patient-authentication-healthcare-sm.jpg")"
+                                         alt="Biometrics Future Contact Less Patient Authentication Healthcare"
+                                         title="Biometrics Future Contact Less Patient Authentication Healthcare"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>24 March 2025</p>
+                                    <h4>Biometrics: The Future of Contact-less Patient Authentication in Healthcare</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/How-optical-scanners-elevate-record-management-in-educational-system")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2025/03/How-optical-scanners-elevate-record-management-in-educational-system-sm.jpg")"
+                                         alt="How Optical Scanners Elevate Record Management In Educational System"
+                                         title="How Optical Scanners Elevate Record Management In Educational System"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>17 March 2025</p>
+                                    <h4>How Optical Scanners Elevate Record Management In Educational System</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/How-4-4-2-fingerprint-scanners-revolunize-public-sector-id-verification")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2025/02/How-4-4-2-fingerprint-scanners-revolunize-public-sector-id-verification-sm.jpg")"
+                                         alt="How 4 4 2 fingerprint scanners revolunize public sector id verification"
+                                         title="How 4 4 2 fingerprint scanners revolunize public sector id verification"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>24 February 2025</p>
+                                    <h4>How 4-4-2 Fingerprint Scanners Revolutionize Public Sector ID Verification</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Why-biometric-authentication-future-of-merchant-payments")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2025/02/Why-biometric-authentication-future-of-merchant-payments-sm.jpg")"
+                                         alt="Why biometric authentication future of merchant payments"
+                                         title="Why biometric authentication future of merchant payments"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>10 February 2025</p>
+                                    <h4>Why Biometric Authentication is the Future of Merchant Payments</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+
+
+
+
+
+
+                        
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Spoof-detection-safeguarding-future-of-identity-solutions")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2025/01/Spoof-detection-safeguarding-future-of-identity-solutions-sm.jpg")"
+                                         alt="Spoof detection safeguarding future of identity solutions"
+                                         title="Spoof detection safeguarding future of identity solutions"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>13 january 2025</p>
+                                    <h4>Spoof Detection: Safeguarding the Future of Identity Solutions</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Power-of-digital-identity-MOSIP-connecting-118M-people")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/12/Power-of-digital-identity-MOSIP-connecting-118M-people-sm.jpg")"
+                                         alt="Power of digital identity MOSIP connecting 118M people"
+                                         title="Power of digital identity MOSIP connecting 118M people"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>14 December 2024</p>
+                                    <h4>The Power of Digital Identity: How MOSIP is Connecting 118 Million People Globally</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Types-of-fingerprint-scanners-for-applications")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/11/Types-of-fingerprint-scanners-for-applications-sm.jpg")"
+                                         alt="Types of fingerprint scanners for applications"
+                                         title="Types of fingerprint scanners for applications"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>20 November 2024</p>
+                                    <h4>Different Types of Fingerprint Scanners for Your Applications</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Biometric-national-id-cards-building-trust-in-digital-governance")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/11/Biometric-national-id-cards-building-trust-in-digital-governance-sm.jpg")"
+                                         alt="Biometric national id cards building trust in digital governance"
+                                         title="Biometric national id cards building trust in digital governance"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>15 November 2024</p>
+                                    <h4>Biometric National ID Cards: Building Trust in Digital Governance</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Biometrics-digital-identity-verification-strategic-roadmap-for-security-trust")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/11/Biometrics-digital-identity-verification-strategic-roadmap-for-security-trust-sm.jpg")"
+                                         alt="Biometrics digital identity verification strategic roadmap for security trust"
+                                         title="Biometrics digital identity verification strategic roadmap for security trust"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>09 November 2024</p>
+                                    <h4>Biometrics in Digital Identity Verification: A Strategic Roadmap for Security and Trust</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/How-biometrics-is-transforming-health-insurance-cards")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/11/How-biometrics-is-transforming-health-insurance-cards-sm.jpg")"
+                                         alt="How biometrics is transforming health insurance cards"
+                                         title="How biometrics is transforming health insurance cards"
+                                         class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>02 November 2024</p>
+                                    <h4>How Biometrics is Transforming Health Insurance Cards</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Optical-vs-capacitive-scanner-which-is-right-for-you")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/10/Optical-vs-capacitive-scanner-which-is-right-for-you-sm.jpg")"
+                                         alt="Optical vs capacitive scanner which is right for you"
+                                         title="Optical vs capacitive scanner which is right for you" class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>11 October 2024</p>
+                                    <h4>Optical vs Capacitive Scanner: Which One is Right for You?</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/How-fake-fingerprint-detection-works")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/10/How-fake-fingerprint-detection-works-sm.jpg")"
+                                         alt="How fake fingerprint detection works"
+                                         title="How fake fingerprint detection works" class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>07 October 2024</p>
+                                    <h4>How Fake Fingerprint Detection Works?</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Mantra-Smart-Identity-at-Digital-Government-Africa-2024")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/10/Mantra-Smart-Identity-at-Digital-Government-Africa-2024-sm.jpg")"
+                                         alt="Mantra at Digital Government Africa 2024"
+                                         title="Mantra at Digital Government Africa 2024" class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>03 October 2024</p>
+                                    <h4>Mantra at Digital Government Africa 2024</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/The-power-of-biometric-security-in-digital-banking-industry")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/09/The-power-of-biometric-security-in-digital-banking-industry-sm.jpg")"
+                                         alt="The power of biometric security in digital banking industry"
+                                         title="The power of biometric security in digital banking industry" class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>16 September 2024</p>
+                                    <h4>The Power of Biometric Security in Digital Banking Industry</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Iris-Recognition-decoding-future-of-secure-civil-identification")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/09/Iris-Recognition-decoding-future-of-secure-civil-identification-sm.jpg")"
+                                         alt="Iris Recognition decoding future of secure civil identification"
+                                         title="Iris Recognition decoding future of secure civil identification" class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>09 September 2024</p>
+                                    <h4>Iris Recognition Decoding Future of Secure Civil Identification</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/Advantages-challenges-of-biometric-identification-in-healthcare")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/09/Advantages-challenges-of-biometric-identification-in-healthcare-sm.jpg")"
+                                         alt="Advantages challenges of biometric identification in healthcare"
+                                         title="Advantages challenges of biometric identification in healthcare" class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>02 September 2024</p>
+                                    <h4>Advantages and Challenges of Biometric Identification in Healthcare</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="blog_post_list_box" href="@Url.Content("/Blog/MOSIP-transforming-digital-identity-management")">
+                                    <img src="@Url.Content("~/Assets/Images/blog/2024/08/MOSIP-transforming-digital-identity-management-sm.jpg")"
+                                         alt="MOSIP Transforming Digital Identity Management"
+                                         title="MOSIP Transforming Digital Identity Management" class="img-fluid" />
+                                    <p><i class="Moreze_blog_date"></i>13 August 2024</p>
+                                    <h4>MOSIP: A Game-Changer in Digital Identity Management</h4>
+                                    <h6>Read Blog</h6>
+                                </a>
+                            </td>
+                        </tr>
+                        @*<tr>
+                                <td>
+                                    <a class="post_box" href="@Url.Content("/Blog/restaurant-pos-systems")">
+                                        <img src="@Url.Content("/assets/images/blog/2023/oct/restaurant-pos-system_sm.jpg")" alt="Restaurant POS System" title="Restaurant POS System" class="img-fluid" />
+                                        <p>16 October 2023</p>
+                                        <h4>Features, and Benefits they Offer for Efficient and Seamless Restaurant Management</h4>
+                                        <h6>Read Blog</h6>
+                                    </a>
+                                </td>
+                            </tr>*@
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                @Html.Partial("~/Views/Blog/_rightPartial.cshtml")
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section bottom_allpages{
+
+    <script src="@Url.Content("~/Assets/plugin/DataTables/jquery.dataTables.min.js")"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#blog_deta').DataTable({
+                "ordering": false,
+            });
+        });
+    </script>
+
+}

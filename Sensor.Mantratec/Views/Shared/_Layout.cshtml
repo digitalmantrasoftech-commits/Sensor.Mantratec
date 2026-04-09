@@ -1,0 +1,94 @@
+﻿@using System.Web.Optimization;
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="author" content="https://mantratec.com/">
+    <meta name="google-site-verification" content="QpOwlyvwfagPpZYfSRM6wioOh1iIHTP0JymSS4E13i8" />
+    <link rel="apple-touch-icon" sizes="57x57" href="@Url.Content("~/Assets/Images/favicon/apple-icon-57x57.png")">
+    <link rel="apple-touch-icon" sizes="60x60" href="@Url.Content("~/Assets/Images/favicon/apple-icon-60x60.png")">
+    <link rel="apple-touch-icon" sizes="72x72" href="@Url.Content("~/Assets/Images/favicon/apple-icon-72x72.png")">
+    <link rel="apple-touch-icon" sizes="76x76" href="@Url.Content("~/Assets/Images/favicon/apple-icon-76x76.png")">
+    <link rel="apple-touch-icon" sizes="114x114" href="@Url.Content("~/Assets/Images/favicon/apple-icon-114x114.png")">
+    <link rel="apple-touch-icon" sizes="120x120" href="@Url.Content("~/Assets/Images/favicon/apple-icon-120x120.png")">
+    <link rel="apple-touch-icon" sizes="144x144" href="@Url.Content("~/Assets/Images/favicon/apple-icon-144x144.png")">
+    <link rel="apple-touch-icon" sizes="152x152" href="@Url.Content("~/Assets/Images/favicon/apple-icon-152x152.png")">
+    <link rel="apple-touch-icon" sizes="180x180" href="@Url.Content("~/Assets/Images/favicon/apple-icon-180x180.png")">
+    <link rel="icon" type="image/png" sizes="192x192" href="@Url.Content("~/Assets/Images/favicon/android-icon-192x192.png")">
+    <link rel="icon" type="image/png" sizes="32x32" href="@Url.Content("~/Assets/Images/favicon/favicon-32x32.png")">
+    <link rel="icon" type="image/png" sizes="96x96" href="@Url.Content("~/Assets/Images/favicon/favicon-96x96.png")">
+    <link rel="icon" type="image/png" sizes="16x16" href="@Url.Content("~/Assets/Images/favicon/favicon-16x16.png")">
+    @*<link rel="manifest" href="@Url.Content("~/assets/favicon/manifest.json")">*@
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="@Url.Content("~/Assets/Images/favicon/ms-icon-144x144.png")">
+    <meta name="theme-color" content="#ffffff">
+    @RenderSection("metatags", false)
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W393DQ7');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Schema -->
+    <!-- End Schema -->
+
+    <link href="@Url.Content("~/Assets/Plugin/bootstrap-icons-1.13.1/font/bootstrap-icons.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Assets/Plugin/fontawesome-free-6.7.2-web/css/all.min.css")" rel="stylesheet" />
+
+    <link href="@Url.Content("~/Assets/Plugin/Bootstrap-5.2.3/dist/css/bootstrap.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Assets/CSS/Layout.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Assets/CSS/Header.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Assets/CSS/Footer.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Assets/CSS/Maicon.css")" rel="stylesheet" />
+    @RenderSection("top_allpages", false)
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W393DQ7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <main class="main">
+        @Html.Partial("_HeaderPartial")
+        @RenderBody()
+        @Html.Partial("_FooterPartial")
+    </main>
+
+    <script src="@Url.Content("~/Assets/Plugin/Jquery-3.6.0/jquery-3.6.0.min.js")"></script>
+    <script src="@Url.Content("~/Assets/Plugin/Jquery-3.6.0/jquery-3.6.0.slim.min.js")"></script>
+    <script src="@Url.Content("~/Assets/Plugin/Popper-2.11.6/popper.min.js")"></script>
+    <script src="@Url.Content("~/Assets/Plugin/Bootstrap-5.2.3/dist/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Assets/JS/custom.js")"></script>
+
+    @*-------------------------------------------*@
+    <script type="text/javascript">
+        function scrollFunction() { document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? $("#scrollUp").show() : $("#scrollUp").hide() } window.onscroll = function () { scrollFunction() }, $("#scrollUp").on("click", function () { document.body.scrollTop = 0, document.documentElement.scrollTop = 0 });
+    </script>
+    @*-------------------------------------------*@
+    <script type="text/javascript">
+        $(window).scroll(function () { $(window).scrollTop() >= 75 ? $("header").addClass("fix_header") : $("header").removeClass("fix_header") });
+    </script>
+    @*-------------------------------------------*@
+    <script type="text/javascript">
+        $(document).ready(function () { 1 == getCookie("Mantra") && $(".Privacy_box").hide() }), $(".i_accept_policy").click(function () { setCookie("Mantra", "1"), $(".Privacy_box").hide() });
+    </script>
+    @*-------------------------------------------*@
+    <script type="text/javascript">
+        function setCookie(e, o) { var t = new Date; t.setTime(t.getTime() + 31536e6), document.cookie = e + "=" + o + ";path=/;expires=" + t.toUTCString() } function getCookie(e) { var o = document.cookie.match("(^|;) ?" + e + "=([^;]*)(;|$)"); return o ? o[2] : null }
+    </script>
+    @*-------------------------------------------*@
+
+    @RenderSection("bottom_allpages", false)
+
+</body>
+</html>

@@ -1,0 +1,367 @@
+﻿footer {
+    background: var(--ma-type-primary);
+    padding: 50px 0;
+    color: var(--ma-white);
+}
+
+
+
+/*------------------------------------------------------*/
+.about_footer, .sub_title_footer {
+    color: var(--ma-white);
+    margin-bottom: 30px
+}
+
+.about_footer {
+    font-size: var(--ma-body-text)
+}
+/*------------------------------------------------------*/
+.social_icons_footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+    .social_icons_footer > a {
+        height: 30px;
+        width: 30px;
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 0 10px 0 0;
+        line-height: 30px;
+        text-align: center;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important
+    }
+
+        .social_icons_footer > a > i {
+            content: "";
+            background-size: cover;
+            height: 15px;
+            width: 15px;
+            background-position: center;
+            display: inline-block;
+            background-repeat: no-repeat
+        }
+/*------------------------------------------------------*/
+.contact_footer {
+    padding: 0;
+    margin: 0
+}
+
+    .contact_footer li {
+        list-style: none;
+        padding-left: 20px;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        margin-bottom: 10px
+    }
+
+        .contact_footer li strong {
+            width: 100%
+        }
+
+        .contact_footer li p {
+            margin: 0
+        }
+
+        .contact_footer li a, .contact_footer li a:active, .contact_footer li a:focus, .contact_footer li a:hover {
+            color: var(--ma-white)
+        }
+
+        .contact_footer li i {
+            position: absolute;
+            left: 0;
+            top: 2px;
+            content: "";
+            background-size: cover;
+            height: 15px;
+            width: 15px;
+            background-position: center;
+            display: inline-block;
+            background-repeat: no-repeat
+        }
+/*------------------------------------------------------*/
+.link_footer {
+    padding: 0;
+    margin: 0
+}
+
+    .link_footer li {
+        list-style: none;
+        margin-bottom: 10px
+    }
+
+        .link_footer li a {
+            display: block;
+            color: var(--ma-white)
+        }
+/*------------------------------------------------------*/
+
+
+.copyrights_text > a, .copyrights_text > a:active, .copyrights_text > a:focus, .copyrights_text > a:hover {
+    color: var(--ma-white)
+}
+
+.copyrights_text {
+    text-align: center;
+    padding: 20px 0 0;
+    margin: 20px 0 0;
+    border-top: 1px dashed #fff;
+}
+
+    .copyrights_text > a {
+        font-weight: 700
+    }
+
+
+.website_protection_link {
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+/*------------------------------------------------------*/
+.Privacy_box {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 50px 10px #0000006b;
+    padding: 20px
+}
+
+    .Privacy_box p {
+        color: var(--ma-gray);
+        font-size: 15px;
+        margin: 0
+    }
+
+        .Privacy_box p a, .Privacy_box p a:active, .Privacy_box p a:focus, .Privacy_box p a:hover {
+            color: var(--ma-type-primary)
+        }
+
+    .Privacy_box a.i_accept_policy {
+        padding: 15px 20px;
+        border: 1px solid var(--ma-type-primary);
+        font-size: 15px;
+        border-radius: 5px;
+        background-color: var(--ma-white);
+        color: var(--ma-type-primary);
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s
+    }
+
+        .Privacy_box a.i_accept_policy:active, .Privacy_box a.i_accept_policy:focus, .Privacy_box a.i_accept_policy:hover {
+            background-color: var(--ma-type-primary);
+            color: var(--ma-white)
+        }
+/*------------------------------------------------------*/
+.scrollUp, .scrollUp > svg {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s
+}
+
+.scrollUp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 0;
+    background-color: #fff;
+    padding: 8px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    z-index: 10000;
+    border: 1px solid var(--ma-gray-400);
+    border-radius: 5px;
+    transition: .3s;
+    display: none
+}
+
+    .scrollUp > svg {
+        width: 25px;
+        height: 25px;
+        fill: var(--ma-gray-700);
+        transition: .3s
+    }
+
+    .scrollUp:active > svg, .scrollUp:focus > svg, .scrollUp:hover > svg {
+        fill: var(--ma-type-primary);
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s
+    }
+/*----------------------------------------------------------------------------------*/
+/*------------------------schedule_appointment_section------------------------------*/
+.appointment_box > i, .schedule_appointment_section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.schedule_appointment_section {
+    position: relative;
+    padding: 40px 0;
+    background-image: url('../images/schedule-appointment.jpg')
+}
+
+    .schedule_appointment_section:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #183750;
+        opacity: .7
+    }
+
+    .schedule_appointment_section .container {
+        position: relative;
+        z-index: 1
+    }
+
+.appointment_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    color: var(--ma-white);
+    padding: 0 280px 0 70px;
+    position: relative
+}
+
+    .appointment_box > i {
+        position: absolute;
+        left: 0;
+        height: 60px;
+        width: 60px
+    }
+
+    .appointment_box > h2 {
+        font-size: var(--ma-pane-header);
+        margin-bottom: 5px;
+        width: 100%
+    }
+
+    .appointment_box > p {
+        font-size: var(--ma-body-text);
+        width: 100%;
+        margin: 0
+    }
+
+.schedule_appointment_btn {
+    font-size: var(--ma-body-text);
+    background-image: url('data:image/svg+xml;utf8,<svg width="60" height="60" viewBox="0 0 60 60" fill="rgb(32, 116, 174)" xmlns="http://www.w3.org/2000/svg"><g><path d="M40.1,10.1c-0.2-0.2-0.3-0.4-0.5-0.5c-1.5-1.1-3.6-0.5-4.1,1.3c-0.3,1.1,0,2,0.8,2.8c4.4,4.4,8.8,8.8,13.2,13.2c0.2,0.2,0.4,0.2,0.6,0.3c-0.1,0.1-0.1,0.2-0.2,0.3c-0.2,0-0.5,0-0.7,0c-15,0-30,0-45,0c-0.2,0-0.5,0-0.7,0c-1.3,0.1-2.3,1-2.5,2.4c-0.1,1.2,0.7,2.4,1.9,2.8c0.4,0.1,0.8,0.1,1.2,0.1c15,0,30.1,0,45.1,0c0.2,0,0.5,0,0.7,0c0.1,0.1,0.1,0.2,0.2,0.3c-0.2,0.1-0.5,0.2-0.6,0.3c-4.4,4.4-8.8,8.8-13.1,13.1c-0.2,0.2-0.3,0.3-0.5,0.5c-1.2,1.5-0.5,3.7,1.3,4.2c1.1,0.3,2-0.1,2.8-0.9c6-6,12-12,18-18c1.5-1.5,1.5-2.9,0-4.3C52,22,46.1,16,40.1,10.1z"/></g></svg>');
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    padding: 10px 40px 10px 20px;
+    border: 1px solid var(--ma-white);
+    border-radius: 5px;
+    background-color: var(--ma-white);
+    color: var(--ma-type-primary);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center right 10px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+    .schedule_appointment_btn:hover,
+    .schedule_appointment_btn:focus,
+    .schedule_appointment_btn:active {
+        background-color: transparent;
+        color: var(--ma-white);
+        background-image: url('data:image/svg+xml;utf8,<svg width="60" height="60" viewBox="0 0 60 60" fill="white" xmlns="http://www.w3.org/2000/svg"><g><path d="M40.1,10.1c-0.2-0.2-0.3-0.4-0.5-0.5c-1.5-1.1-3.6-0.5-4.1,1.3c-0.3,1.1,0,2,0.8,2.8c4.4,4.4,8.8,8.8,13.2,13.2c0.2,0.2,0.4,0.2,0.6,0.3c-0.1,0.1-0.1,0.2-0.2,0.3c-0.2,0-0.5,0-0.7,0c-15,0-30,0-45,0c-0.2,0-0.5,0-0.7,0c-1.3,0.1-2.3,1-2.5,2.4c-0.1,1.2,0.7,2.4,1.9,2.8c0.4,0.1,0.8,0.1,1.2,0.1c15,0,30.1,0,45.1,0c0.2,0,0.5,0,0.7,0c0.1,0.1,0.1,0.2,0.2,0.3c-0.2,0.1-0.5,0.2-0.6,0.3c-4.4,4.4-8.8,8.8-13.1,13.1c-0.2,0.2-0.3,0.3-0.5,0.5c-1.2,1.5-0.5,3.7,1.3,4.2c1.1,0.3,2-0.1,2.8-0.9c6-6,12-12,18-18c1.5-1.5,1.5-2.9,0-4.3C52,22,46.1,16,40.1,10.1z"/></g></svg>');
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+/*------------------------------------------------------*/
+@media screen and (max-width:1600px) {
+    footer {
+        background-position: bottom -100px center;
+    }
+}
+@media screen and (max-width:1400px) {
+    
+}
+@media screen and (max-width:1200px) {
+    footer {
+        padding: 50px 0px 0px 0px;
+        background-position: bottom -120px center;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    footer {
+        padding: 50px 20px 0px 20px;
+        background-position: bottom -120px center;
+    }
+
+    
+
+    .sub_title_footer {
+        margin-top: 30px;
+        margin-bottom: 10px
+    }
+    
+
+}
+
+@media screen and (max-width:768px) {
+    .sub_title_footer {
+        margin-top: 30px
+    }
+}
+@media screen and (max-width:576px) {
+    footer {
+        padding: 50px 20px 0px 20px;
+        background-position: bottom -220px center;
+    }
+
+}
+
+
+
+
+

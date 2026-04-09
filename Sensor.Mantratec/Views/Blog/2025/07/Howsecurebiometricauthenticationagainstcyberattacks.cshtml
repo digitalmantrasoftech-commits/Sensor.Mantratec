@@ -1,0 +1,389 @@
+﻿
+@{
+    ViewBag.Title = "Howsecurebiometricauthenticationagainstcyberattacks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section metatags{
+    <title>Is Biometric Authentication Safe from Cyberattacks?</title>
+    <meta name="keywords" content="biometric authentication, cybersecurity, fingerprint security, facial recognition, biometric hacking" />
+    <meta name="description" content="Biometric authentication is growing fast—but is it safe? Explore real hacks and learn how to keep your identity secure in a digital world." />
+    <link rel="canonical" href="https://sensor.mantratec.com/Blog/How-secure-biometric-authentication-against-cyberattacks" />
+
+    <meta property="og:title" content="Is Biometric Authentication Safe from Cyberattacks?" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sensor.mantratec.com/Blog/How-secure-biometric-authentication-against-cyberattacks" />
+    <meta property="og:image" content="https://sensor.mantratec.com/Assets/Images/blog/2025/07/How-secure-biometric-authentication-against-cyberattacks-lg.jpg" />
+    <meta property="og:site_name" content="Mantra" />
+    <meta property="fb:app_id" content="1557512364360593" />
+    <meta property="og:description" content="Biometric authentication is growing fast—but is it safe? Explore real hacks and learn how to keep your identity secure in a digital world." />
+
+    <meta name="twitter:title" content="Is Biometric Authentication Safe from Cyberattacks?" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://sensor.mantratec.com/Blog/How-secure-biometric-authentication-against-cyberattacks" />
+    <meta name="twitter:image" content="https://sensor.mantratec.com/Assets/Images/blog/2025/07/How-secure-biometric-authentication-against-cyberattacks-lg.jpg" />
+    <meta name="twitter:description" content="Biometric authentication is growing fast—but is it safe? Explore real hacks and learn how to keep your identity secure in a digital world." />
+}
+
+@section top_allpages{
+    <link href="@Url.Content("~/Assets/css/blog/bloginner.css")" rel="stylesheet" />
+    <style>
+        ul p {
+            margin-bottom: 12px;
+        }
+    </style>
+}
+
+<section class="page_header_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="breadcrumb">
+                    <li><a href="@Url.Content("/")">Home</a></li>
+                    <li><span>/</span></li>
+                    <li><a href="@Url.Content("/Blog")">Blog</a></li>
+                    <li><span>/</span></li>
+                    <li><span><strong>How Secure is Biometric Authentication Against Cyberattacks?</strong></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                <div class="post">
+                    <div class="post-header">
+                        <h1 class="blog_post_header_title">How Secure is Biometric Authentication Against Cyberattacks?</h1>
+                        <p class="post-meta">&nbsp;Posted on:- <strong>14 July 2025</strong>&nbsp;By:- <strong>Archana Tulsiyani</strong></p>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <img src="@Url.Content("~/Assets/Images/blog/2025/07/How-secure-biometric-authentication-against-cyberattacks-lg.jpg")"
+                                     alt="How Secure is Biometric Authentication Against Cyberattacks"
+                                     title="How Secure is Biometric Authentication Against Cyberattacks"
+                                     class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+
+                        <p>Ever been locked out of your account because you forgot your password - AGAIN!</p>
+                        <p>Let's be honest, passwords are exhausting.</p>
+                        <p>You struggle to remember which variation of your pet's name, birth date, and special characters have you used this time? You forget them, reuse them, or even worse, write them on sticky notes to remember.</p>
+                        <p class="mb-1">You're not alone!</p>
+                        <p class="mb-1">Managing passwords can be tedious tasks:</p>
+                        <ul>
+                            <li><p>You're told not to reuse them - but you do so anyway</p></li>
+                            <li><p>You're told to change them often - but you forget</p></li>
+                            <li><p>Also, above all, every app wants a new password.</p></li>
+                        </ul>
+
+                        <p>All this frustration gives rise to something seemingly smarter. That's probably why many of us have welcomed biometrics with open arms. Just tap your finger or scan your face, and boom, you're in. No fuss.</p>
+
+                        <p class="mb-1"><strong>But here's the million dollar question:</strong></p>
+                        <p>Is biometric authentication really secure? Or is it just giving us a false sense of security?</p>
+                        <p>Let's unpack this: No jargon, just clear, straightforward answers!</p>
+
+                        <hr />
+
+                        <h2 id="what-is-biometric">First Things First: What is Biometric Authentication?</h2>
+
+                        <p class="mb-1">Biometric authentication verifies identity based on something you are, not something that you have or know. This includes:</p>
+                        <ul>
+                            <li><p>Fingerprint Recognition</p></li>
+                            <li><p>Facial Recognition</p></li>
+                            <li><p>Iris or Retina Scans</p></li>
+                            <li><p>Voice Patterns</p></li>
+                            <li><p>Hand or Vein patterns</p></li>
+                        </ul>
+
+                        <p>It is important to remember that each of these traits are unique to you. It makes them hard to fake. </p>
+                        <p class="mb-1">But there's a key point many people overlook:</p>
+                        <p>Biometric systems don't store actual images of your face or fingerprint. Instead, they convert these biometric traits into digital templates. Think of it as the math-based encrypted summary of your identity. These templates are later stored and used whenever you login.</p>
+                        <p>Since these biometric traits are unique to you, no one else should be able to impersonate you. But his uniqueness alone does not guarantee safety.</p>
+
+                        <hr />
+
+                        <h2 id="why-biometrics-feels-secure">Why Biometrics Feels more Secure</h2>
+
+                        <p>There is a reason why everyone, from smartphone users to government agencies are all shifting towards biometrics. </p>
+                        <h4><strong>Let's face it:</strong></h4>
+                        <ul>
+                            <li><p>You can forget your password - But you can't forget your face.</p></li>
+                            <li><p>You can lose your OTP - but not your fingerprint</p></li>
+                            <li><p>You can share a PIN - but your voice is your own</p></li>
+                        </ul>
+
+                        <p>Plus, it is more convenient; no fuss about typing passwords, just pure convenience. For most people, <strong>convenience = trust.</strong></p>
+
+                        <p> But here's where it gets tricky; biometric traits are permanent. Once exposed, you can't replace them. </p>
+                        <p class="mb-1">There is no "reset fingerprint" button.</p>
+                        <p>Also, this brings us to the real issue: Are biometrics really secure? Can they be hacked?</p>
+
+                        <hr />
+
+                        <h2 id="can-biometrics-be-hacked">Can Biometrics Data Actually Be Hacked?</h2>
+
+                        <p>Let's get straight to the point without circling the subject. Yes, Biometrics can be hacked. And the results can be far more serious than the compromised password or PINs. Because, as discussed before, you can change the password but you can't change your face or fingerprint. Once it's stolen, it's potentially compromised for life.</p>
+
+                        <hr />
+
+                        <h2 id="what-makes-attractive">What Makes Biometric Data So Attractive To Hackers?</h2>
+
+                        <p>Think about it: Biometric data has become more than just a way to unlock the phone. It has now become the way in which you can access the financial data, border control, employee access, and national ID systems. This makes it a gold-mine for the hackers, cyber criminals, and even nation-state attackers.</p>
+
+                        <p>Let's see a few examples, where biometric data is compromised in the real world scenario:</p>
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Data Breaches</strong></h4>
+                        </div>
+                        <p>Many biometrics systems rely on centralized databases or cloud servers to hold the sensitive biometric data. While this makes management easier for the enterprise, it also makes them massive targets.</p>
+
+                        <ul>
+                            <li>
+                                <p><strong><a href="https://nationaltechnology.co.uk/Android_Facial_Recognition_Can_Be_Easily_Faked_With_2D_Photos.php">FacePass Brazil - March 2025</a></strong><br />An unsecured AWS bucket used by the FacePass app leaked over 1.6 million files containing selfies, AWS access keys, Brazilian national ID, CPF number and more. All of these can be used to bypass face recognition systems.</p>
+                            </li>
+                            <li>
+                                <p><strong>Biometric Data Breach - 2019</strong><br />A biometric security platform used globally in banks, police, and government facilities, exposed over 2.78 million records including 1 million fingerprint scans and facial data stored in plaintext on a public server.</p>
+                            </li>
+                        </ul>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Spoofing Attack</strong></h4>
+                        </div>
+                        <p>Spoofing is when an attacker mimics a person's biometric trait, such as fingerprint, face, or even voice, to fool a system into granting access. This can be done using anything from a 3D- printed model of a fingerprint to a high-resolution photo or even deep fake videos. Without proper liveness detection, systems can easily be tricked. Low and mid-range devices with basic biometric sensors are especially vulnerable. It can often be bypassed with just a printed photo or model fake finger.</p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Printed Photo Face Unlock</strong><br />
+                                    In 2022, many Android phones with basic 2D facial recognition were tricked by holding up printed images to the camera. No mask needed.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Chinese Sensor Hack</strong><br />
+                                    In 2019, hackers cloned the fingerprints using resin gelatin molds to fool ultrasonic in-display sensors on the Xiaomi Mi 9 phone.
+                                </p>
+                            </li>
+                        </ul>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Man-in-the-middle attack</strong></h4>
+                        </div>
+                        <p>In biometric systems that send data from a scanner or mobile device to a remote server for verification, there's a window where the data is in "in-transit" mode. When the data is not encrypted and authenticated properly, this creates an opportunity for man-in-the-middle attacks where an attacker can alter the captured biometric information or inject spoofed data. It can completely undermine the authentication process.</p>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Replay Attacks</strong></h4>
+                        </div>
+                        <p>Replay attacks involve capturing biometric data like facial images, fingerprints, and voice samples and replaying it later to fool the system. This often happens when devices or software do not implement time stamped or challenge response protocols. In this attack, previously captured scans can still be taken as "live" and they can be used to gain unauthorized access, without even reproducing the biometric traits.</p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Samsung Galaxy S8 Face Unlock</strong><br />
+                                    Hackers bypassed the phone's facial recognition using the user's photo to its camera, showing how captured data can be reused.
+                                </p>
+                            </li>
+                        </ul>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Hardware-level attack</strong></h4>
+                        </div>
+                        <p>One of the basic attacks that an attacker can do is hardware-level attacks. Even if your software is secure, the physical device that you're using can prove to be the weakest link. Some fingerprint or facial sensors may transit the raw biometric data, without encryption. Attackers can extract the data using physical access or basic tools. Alternatively, device firmware can also be tampered with to accept the unauthorized inputs or skip verification steps. Uncertified or Cheap biometric hardware is particularly prone to these attacks. It can especially be seen in the high-volume deployment where cost overshadows security while making purchase decisions.</p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Fingerprint Spoofing via 3D printed model</strong><br />
+                                    In a research project, Cisco Talos demonstrated that ultrasonic fingerprint sensors in smartphones and Laptops can be fooled using 3D printed fingerprint molds made from resin. With 80% of success rate, it shows that physical replicas can bypass the on-device fingerprint sensor, especially when the attacker has physical access to the device.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Windows Hello Bypass</strong><br />
+                                    Researchers showed that the Windows Hello facial recognition system could be tricked by manipulating a third-party IR webcam. By crafting an image where RGB is omitted is then sent to the PC. This bypasses the face scan and unlocks the device. This shows how untrusted the hardware components can undermine the security aspect.
+                                </p>
+                            </li>
+                        </ul>
+
+                        <hr />
+
+                        <h2 h2 id="why-do-scenarios-matter">Why Do Real-World Scenarios Matter?</h2>
+                        <p class="mb-1">While Biometric Devices are globally trusted, these real-world scenarios showcase that:</p>
+                        <ul>
+                            <li><p>Physical access can enable attackers to bypass hardware protections easily</p></li>
+                            <li><p>Untrusted Components can be easily manipulated to spoof the system.</p></li>
+                            <li><p>Firmware-level compromise can turn the seemingly harmless device into the data harvesters.</p></li>
+                        </ul>
+
+                        <hr />
+
+                        <h2 id="truly-secure">So.. What Makes Biometrics Truly Secure?</h2>
+
+                        <p class="mb-1">Okay, now that we have seen the biometrics world, where <a href="https://sensor.mantratec.com/Blog/How-fake-fingerprint-detection-works">fake fingerprints</a> play mission impossible, and a printed photo becomes the passport. You're probably wondering, " if biometrics can be hacked, what's the point?"</p>
+
+                        <p>Let's put it in this way…</p>
+
+                        <p>Biometrics can be secure, but just as any superhero requires a little bit extra, biometric devices also need more than just a fancy fingerprint scanning to be truly secure. It's not just about what you're using; the main focus remains on how it's being used.</p>
+
+                        <p class="mb-1">Because here's the truth:</p>
+
+                        <p>Using an unsecure biometric device is the same as using the lock on the door; it looks secure, until someone breaks the door, pooks a hole in it, or breaks the lock.</p>
+
+                        <p class="mb-1">So how do we go from "fancy but fragile" to "fortess-level" biometric security?</p>
+
+                        <p>Let's break down the secret sauce of truly secure biometric authentication systems. One that actually lives up to the hype, resists the real-world attacks, and doesn't leave your face floating around the internet. Here's what separates the well-designed biometric system from the one that's just convenient, not secure.</p>
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Liveness Detection</strong></h4>
+                        </div>
+                        <p>Liveness detection in biometric means the system's ability to detect if a fingerprint or face is real or not.</p>
+                        <p class="mb-1">These advance systems check for:</p>
+                        <ul>
+                            <li><p>Pulse or blood flow for fingerprint</p></li>
+                            <li><p>3D scan, blinking, or skin texture for face</p></li>
+                            <li><p>Voice modulation and background noise for voice</p></li>
+                        </ul>
+                        <p>Look for systems compliant with <strong>ISO/IEC 30107-3</strong>, the global standard for the presentation attack detection.</p>
+                        <div class="blog_sub_point_box">
+                            <h4><strong>On-Device Matching</strong></h4>
+                        </div>
+                        <p>Whenever possible, it is important that your biometric data should be processed locally rather than on the cloud. For example, Apple's FaceID uses an enclave enclave chip that never exposes your face data to any external systems. This means that even if Apple's server is hacked or compromised, your biometric traits are safe.</p>
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Template Encryption</strong></h4>
+                        </div>
+                        <p>Template encryption protects the sensitive biometric data by converting it into the secure, unreadable binary format. Rather than storing it in the raw images, Biometric Devices saves it using encryption algorithms such as AES-256, SHA-512. Even when breached, your data remains useless without the decryption key. This makes it harder for attackers to misuse or even reverse engineer sensitive biometric information.</p>
+
+                        <hr />
+
+                        <h2 id="stay-safe">How Do You Stay Safe?</h2>
+
+                        <p>Now that we have talked about how biometrics can be hacked, the next logical question is: <strong>How do you stay safe?</strong> Fortunately, you don't need to be a cyber security expert; all you have to do is take the following steps while providing your biometrics or unlocking your smartphone. Here's the breakdown of the same:</p>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Choose Trusted Device with Certified Sensors</strong></h4>
+                        </div>
+                        <p class="mb-1">Not all devices are developed the same. Opt for smartphones, access control devices that use certified biometric modules. Look for devices that are compliant with standards such as ISO/IEC 30107-3, GDPR, ROHS or more. Go for devices from the reputable brand such as Mantra which often comes with the better encryption, liveness detection, and secure hardware modules.</p>
+                        <p class="fst-italic mb-4"><strong>💡 | Tip: Cheaper devices may cut corners on biometric security, What you are saving is money but you are risking personal sensitive data.</strong></p>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Keep Your Devices and Apps Updated</strong></h4>
+                        </div>
+                        <p class="mb-1">Security patches aren't just for fixing bugs; they often patch some serious vulnerabilities or zero-day attacks. Biometric sensors, matching algorithms, or even encryption protocols evolve. Therefore, making regular updates of firmware and software important. These updates ensure your devices stay protected against emerging threats such as <a href="https://sensor.mantratec.com/Blog/Spoof-detection-safeguarding-future-of-identity-solutions">biometric spoofing</a> attacks or replay attacks.</p>
+                        <p class="fst-italic mb-4"><strong>💡 | Tip: Make it a habit, enable the auto updates where possible.</strong></p>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Be Mindful of Where You Enroll Your Biometrics</strong></h4>
+                        </div>
+                        <p class="mb-1">Every time you're scanning your face or giving your fingerprints for a new app, you're trusting the provider to keep your sensitive data secure. Remember, don't just share your biometrics with or on any unverified apps, shady websites, or devices that lack a clear privacy policy. If you're not sure where or how your biometric data is stored, proceed with caution or skip it altogether.</p>
+                        <p class="fst-italic mb-4"><strong>💡 | Tip: Think of it like a bouncer checking IDs, just having a face is not enough. You need to prove that you're really there.</strong></p>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Demand Liveness Detection</strong></h4>
+                        </div>
+                        <p class="mb-1">A biometric device without liveness detection is like a lock that can't tell where it is being picked. Make sure that the devices and systems that are used to take your biometrics have active or passive liveness detection to prevent spoofing with photos, videos, masks or even recordings. This measure is important for multiple biometric modalities.</p>
+                        <p class="fst-italic mb-4"><strong>💡 | Tip: Think of it like a secret handshake — only the real you can pull it off. Liveness detection ensures imposters can’t fool the system with photos, masks, or recordings. Always insist on it.</strong></p>
+
+                        <div class="blog_sub_point_box">
+                            <h4><strong>Enable Multi-Factor Authentication (MFA)</strong></h4>
+                        </div>
+                        <p class="mb-1">Even the strongest biometrics can use a sidekick. While your biometrics is a powerful first line of defense, pairing it with a second factor like a PIN, password, or security token. This will create a dynamic duo, and that's thought to beat. This layered approach ensures that even if one of the security layers is compromised, the other one stands the guard.</p>
+                        <p class="fst-italic mb-4"><strong>💡 | Tip: Think of it as Batman and Robin : Stronger together when protecting your digital fortress.</strong></p>
+
+                        <hr />
+                        <a href="https://sensor.mantratec.com/Contact-Us"><img src="@Url.Content("~/Assets/Images/blog/2025/07/partner-with-us-cta.png")" class="img-fluid mb-3" alt="Partner With Us" title="Partner With US" /></a>
+
+                        <h2 id="mantra-protection">How Mantra's Devices Protects Your Sensitive Data?</h2>
+
+                        <p>At <a href="https://sensor.mantratec.com/">Mantra</a>, we believe that biometric security is not just a feature that you can add; it's the foundation. Every biometric component that you add in your ecosystem should be able to withstand modern evolving cyber threats and keep your sensitive data safe, no matter where or how it's captured:</p>
+                        <div class="row">
+                            <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+                                <div class="blog_sub_point_box">
+                                    <h4><strong>AI-Based Spoof Detection</strong></h4>
+                                </div>
+                                <p>Security starts with knowing who's real. Mantra devices leverage advanced AI-driven liveness detection to differentiate between the genuine users and spoofing attempts. This prevents unauthorized users from bypassing authentication using fraudulent trails.</p>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+                                <div class="blog_sub_point_box">
+                                    <h4><strong>Advanced AI Encryption</strong></h4>
+                                </div>
+                                <p>The moment your biometric data is captured, it's encrypted using industry leading algorithms such as AES-256 and SHA-512. Instead of storing raw data, it stores in encrypted biometric templates that are mathematically unreadable without a decryption key.</p>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+                                <div class="blog_sub_point_box">
+                                    <h4><strong>Globally Certified & Tested</strong></h4>
+                                </div>
+                                <p>Over devices are validated by globally recognized certifications such as FBI/FPA, iBeta, CE, FCC, and more. These certifications aren't just the badges; they're proof that our products are capable of meeting the global standards for identity verification, data handling, and device performance.</p>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+                                <div class="blog_sub_point_box">
+                                    <h4><strong>Tamper-proof Design & Secure Firmware</strong></h4>
+                                </div>
+                                <p>Security isn't just digital. Our hardware is designed to resist physical tampering, unauthorized data extraction, and firmware manipulation. Secure booth protocols, firmware validation, and device-level encryption make it incredibly difficult for attackers to compromise the hardware, be it intentionally or unintentionally.</p>
+                            </div>
+                        </div>
+                        <hr />
+
+                        <h2 id="final-thoughts">Final Thoughts: Is Biometric Authentication Secure?</h2>
+
+                        <p>Here's the honest answer : <strong>Yes, it can be secure.</strong> But only when it is done right!</p>
+
+                        <p class="mb-1">Biometrics are a huge leap forward in identity security, but remember they are not the silver bullets. They work best when they are part of a layered security approach backed by:</p>
+                        <ul>
+                            <li><p>Strong Encryption</p></li>
+                            <li><p>Certified Hardware</p></li>
+                            <li><p>Liveness Detection</p></li>
+                            <li><p>And most importantly, your own judgment.</p></li>
+                        </ul>
+
+                        <p>So, the next time you're using the face scan to open the phone or scan your finger at a kiosk, remember, you're not just using a cool feature; you're using your sensitive data on the system that needs to earn it.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        @Html.Partial("~/Views/Blog/_rightPartial.cshtml")
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="table_of_content_box">
+                            <span><strong>Table of Contents</strong></span>
+                            <a href="#what-is-biometric">What is Biometric Authentication?</a>
+                            <a href="#why-biometrics-feels-secure">Why Biometrics Feels more Secure</a>
+                            <a href="#can-biometrics-be-hacked">Can Biometrics Data Actually Be Hacked?</a>
+                            <a href="#what-makes-attractive">What Makes Biometric Data So Attractive To Hackers?</a>
+                            <a href="#why-do-scenarios-matter">Why Do Real-World Scenarios Matter?</a>
+                            <a href="#truly-secure">What Makes Biometrics Truly Secure?</a>
+                            <a href="#stay-safe">How Do You Stay Safe?</a>
+                            <a href="#mantra-protection">How Mantra's Devices Protects Your Sensitive Data?</a>
+                            <a href="#final-thoughts">Final Thoughts: Is Biometric Authentication Secure?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section bottom_allpages{
+    <script src="@Url.Content("~/Assets/Plugin/Jquery-Core-3.7.1/jquery-3.7.1.min.js")"></script>
+    <script>
+        $(document).ready(function () {
+            var offset = -100; // Negative offset value
+
+            $('.table_of_content_box a[href^="#"]').on('click', function (event) {
+                event.preventDefault(); // Prevent default anchor click behavior
+
+                var target = this.hash; // Get the hash part (id) from the clicked link
+                var $target = $(target); // Get the target div
+
+                if ($target.length) { // Check if the target exists
+                    $('html, body').animate({
+                        scrollTop: $target.offset().top + offset
+                    }, 200); // Adjust scroll speed if necessary
+                }
+            });
+        });
+    </script>
+}
+
+

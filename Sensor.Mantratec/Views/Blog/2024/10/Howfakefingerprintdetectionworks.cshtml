@@ -1,0 +1,361 @@
+﻿
+@{
+    ViewBag.Title = "Howfakefingerprintdetectionworks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section metatags{
+
+    <title>Behind Fake Fingerprint Detection: How it Works?</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="Find out how fake fingerprints are detected with advanced biometric methods like optical, capacitive, and multispectral imaging to prevent spoofing attacks." />
+    <link rel="canonical" href="https://sensor.mantratec.com/Blog/How-fake-fingerprint-detection-works" />
+
+    <meta property="og:title" content="Behind Fake Fingerprint Detection: How it Works?" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sensor.mantratec.com/Blog/How-fake-fingerprint-detection-works" />
+    <meta property="og:image" content="https://sensor.mantratec.com/Assets/Images/blog/2024/10/How-fake-fingerprint-detection-works-lg.jpg" />
+    <meta property="og:site_name" content="Mantra" />
+    <meta property="fb:app_id" content="1557512364360593" />
+    <meta property="og:description" content="Find out how fake fingerprints are detected with advanced biometric methods like optical, capacitive, and multispectral imaging to prevent spoofing attacks." />
+
+    <meta name="twitter:title" content="Behind Fake Fingerprint Detection: How it Works?" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://sensor.mantratec.com/Blog/How-fake-fingerprint-detection-works" />
+    <meta name="twitter:image" content="https://sensor.mantratec.com/Assets/Images/blog/2024/10/How-fake-fingerprint-detection-works-lg.jpg" />
+    <meta name="twitter:description" content="Find out how fake fingerprints are detected with advanced biometric methods like optical, capacitive, and multispectral imaging to prevent spoofing attacks." />
+
+}
+
+@section top_allpages{
+    <link href="@Url.Content("~/Assets/css/blog/bloginner.css")" rel="stylesheet" />
+}
+
+<section class="page_header_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="breadcrumb">
+                    <li><a href="@Url.Content("/")">Home</a></li>
+                    <li><span>/</span></li>
+                    <li><a href="@Url.Content("/Blog")">Blog</a></li>
+                    <li><span>/</span></li>
+                    <li><span><strong>How Fake Fingerprint Detection Works</strong></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                <div class="post">
+                    <div class="post-header">
+                        <h1 class="blog_post_header_title">How Fake Fingerprint Detection Works?</h1>
+                        <p class="post-meta">&nbsp;Posted on:- <strong>07 October 2024</strong>&nbsp;By:- <strong>Pushpendra Pal</strong></p>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <img src="@Url.Content("~/Assets/Images/blog/2024/10/How-fake-fingerprint-detection-works-lg.jpg")"
+                                     alt="How Fake Fingerprint Detection Works?"
+                                     title="How Fake Fingerprint Detection Works?"
+                                     class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <p>As we navigate a more digital world, secure authentication methods are vital. With the rise in cyber threats, many now trust biometric solutions to protect sensitive data. Biometric recognition is emerging as the top choice. It is convenient, accurate, and widely accepted.</p>
+                        <p>However, the very technology that offers enhanced security also presents new vulnerabilities. The emergence of fake fingerprints - artificial replicas designed to bypass the biometric systems. It poses a significant challenge to the integrity of fingerprint recognition.</p>
+                        <p>These counterfeit prints can be crafted using a variety of materials and techniques, effectively mimicking the unique patterns and characteristics of genuine human fingerprints. As a result, the security biometric systems are increasingly at risk, raising alarms for both individuals and organizations that rely on these technologies for protection.</p>
+                        <p>Before diving into the Fake Fingerprints, let’s take an overview of fingerprint authentication.</p>
+                        <hr />
+                        <h2 id="An_overview">Biometric Fingerprint Authentication - An overview</h2>
+                        <p>Fingerprint authentication is a safe way to verify the identity of an ndividual without traditional authentication approaches such as passwords and PINs. Here identity management systems are responsible for preventing identity fraud.</p>
+                        <p>With the adoption of fingerprint authentication in our daily lives including but not limited to cell phones, laptops, access control, financial transactions, smart home protection, and Law enforcement, it has become a vital part. It is important to note that no fingerprint is the same, even with the twins.</p>
+                        <br />
+                        <h3 style="color:red;">Here are some examples, of the distinct fingerprints </h3>
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/distinct-fingerprints-1.png" alt="distinct fingerprints 1" title="distinct fingerprints 1" />
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/distinct-fingerprints-2.png" alt="distinct fingerprints 2" title="distinct fingerprints 2" />
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-xs-6 d-flex align-items-center justify-content-center">
+                                <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/distinct-fingerprints-3.png" alt="distinct fingerprints 3" title="distinct fingerprints 3" />
+                            </div>
+                        </div>
+                        <hr />
+                        <h2 id="What_are_the_Fake_Fingerprins">Understanding the Threat: What are the Fake Fingerprints</h2>
+                        <p>Spoof fingerprints, or fake fingerprints, are synthetic copies of real fingerprints intended to trick biometric systems. These copies can be made from different materials and can imitate the distinctive patterns on human fingertips. Let’s see which materials are used in developing these fake fingerprints.</p>
+
+                        <h3 class="mb-3">Materials used for fingerprint spoofing</h3>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Silicone </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Gelatin</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>3D-printing materials</p>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Other materials such as Wood, Latex, and Clay dough can also be used.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/What_are_the_Fake_Fingerprints.png" alt="What are the Fake Fingerprints" title="What are the Fake Fingerprints" />
+                        <p class="mt-2"><strong>Source: </strong><a style="word-wrap: break-word;" href="http://biometrics.cse.msu.edu/Publications/Fingerprint/ChughJain_FingerprintSpoofDetectorGeneralization.pdf">http://biometrics.cse.msu.edu/Publications/Fingerprint/ChughJain_FingerprintSpoofDetectorGeneralization.pdf</a></p>
+                        <p>These materials can be molded to replicate the intricate details of the real fingerprint. This makes it more challenging for the standard fingerprint scanners to differentiate genuine fingerprints from fake ones.</p>
+                        <hr />
+
+                        <h2 id="Risks_Associated_with_Fingerprint_Spoofing">What are the Risks Associated with Fingerprint Spoofing?</h2>
+                        <p>The primary reason associated with fingerprint spoofing is unauthorized access to secure systems. Criminals can exploit vulnerabilities in biometrics systems, potentially leading to data breaches and financial loss. Moreover, the growing sophistication of spoofing techniques poses a significant threat to personal and organizational security.</p>
+                        <hr />
+
+                        <h2 id="Science_behind_Fake_Fingerprint_Detection">Understand the Science behind Fake Fingerprint Detection</h2>
+                        <p>The biological properties of human skin are combined with cutting-edge technical capabilities to detect forged fingerprints. It is difficult to duplicate the distinct textures, electrical conductivity, and thermal characteristics of real fingerprints in synthetic materials. These properties are analyzed by a variety of sensor technologies, such as optical, capacitive, ultrasonic, and multispectral imaging, to distinguish between authentic and fraudulent prints. But complex spoofing strategies like "DeepMasterPrints" make it harder to identify threats, emphasizing the urgent need for better ways to strengthen biometric security against changing threats. The below image shows the difference between the Live fingerprint and the Spoofed fingerprint.</p>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/Science_behind_Fake_Fingerprint_Detection.png" alt="Science behind Fake Fingerprint Detection" title="Science behind Fake Fingerprint Detection" />
+                        </div>
+                        <p class="mt-2"><strong>Source: </strong>Fingerprint Spoof Buster: Use of Minutiae-centered Patches Tarang Chugh*, Student Member, IEEE, Kai Cao, and Anil K. Jain, Life Fellow, IEEE</p>
+                        <p>Various methods have been developed to enhance the accuracy & readability of fingerprint scanners, each one with its own set of strengths and limitations. Here is the breakdown of each of these methods.</p>
+                        <hr />
+
+                        <h2 id="Methods_of_Fake_Fingerprint_Detection">Key Methods of Fake Fingerprint Detection</h2>
+                        <p>Fake fingerprint detection techniques are developing along with fingerprint recognition technologies. To guarantee that biometric systems exclusively identify real, living fingerprints, a number of strategies have been devised. The most popular techniques for detecting phony fingerprints are listed below; each has a special methodology, benefits, and drawbacks.</p>
+                        <h3><strong class="fs-5">1. </strong>Optical Liveness Detection</h3>
+                        <p>Optical scanners such as Mantra’s <a href="https://sensor.mantratec.com/Authentication-Scanner/Fingerprint-Scanner-MELO31">MELO31 Optical Fingerprint Scanner</a>, are the traditional fingerprint scanners. They use a light source and photodiode to capture the digital image of the fingerprint.  While it is simple to use, these scanners can be easily fooled by the high-quality replicas available. To counter this, optical liveness detection shines the light on the finger, measuring the reflection, how it is absorbed, or how it is scattered by the skin. This method identifies liveness by identifying the unique optical properties of the live skin. This helps in distinguishing genuine fingerprints from the spoofed ones.</p>
+                        <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/Optical_Liveness_Detection.png" alt="Optical Liveness Detection" title="Optical Liveness Detection" />
+                        <p class="mt-2"><strong>Source: </strong><a style="word-wrap: break-word;" href="https://www.androidauthority.com/">androidauthority.com</a></p>
+                        <h3>Advantages </h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Able to take pictures with a good resolution.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Non-intrusive and simple to use.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Limitations</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Sensitive to illumination and other environmental conditions.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Can be tricked by superior imitations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <h3><strong class="fs-5">2. </strong>Capacitive Liveness Detection</h3>
+                        <p><a href="https://sensor.mantratec.com/Authentication-Scanner/Capactive-Fingerpint-Scanners-MARC10">Capacitive scanners</a>, widely used in smartphones, employ electrical currents to accurately map the ridges and valleys of a fingerprint, providing higher resolution and enhanced security compared to optical scanners. These scanners measure the electrical conductivity of the skin, allowing them to differentiate between real and fake fingerprints. Live human skin possesses distinct conductive properties that are not present in most spoofing materials, making capacitive scanners particularly effective at detecting and rejecting counterfeit fingerprints. This technology enhances biometric security significantly.</p>
+                        <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/Capacitive_Liveness_Detection.png" alt="Capacitive Liveness Detection" title="Capacitive Liveness Detection" />
+                        <p class="mt-2"><strong>Source: </strong><a style="word-wrap: break-word;" href="https://www.androidauthority.com/">androidauthority.com</a></p>
+                        <h3>Advantages</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Effective against a wide range of spoofing materials.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Reliable in various environmental conditions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Limitations</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>May struggle with certain materials that closely mimic human skin's electrical properties.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Higher cost compared to optical systems.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br />
+                        <h3><strong class="fs-5">3. </strong>Thermal Liveness Detection</h3>
+                        <p>Thermal scanners are the least common fingerprint scanners, primarily due to their high cost and sensitivity to ambient temperature. They work by detecting heat differences on the contact surface, which allows them to identify genuine fingerprints based on the warmth of living tissue. This heat detection contrasts with the cooler temperature of fake fingerprints, making thermal scanners effective at distinguishing real fingerprints from replicas. Despite their advantages, the high cost and environmental sensitivity limit their widespread use.</p>
+                        <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/Thermal_Liveness_Detection.png" alt="Thermal Liveness Detection" title="Thermal Liveness Detection" />
+                        <p class="mt-2"><strong>Source: </strong><a style="word-wrap: break-word;" href="http://zbum.ia.pw.edu.pl/PAPERS/ICB_2013_Czajka_Bulwan.pdf">http://zbum.ia.pw.edu.pl/PAPERS/ICB_2013_Czajka_Bulwan.pdf</a></p>
+                        <h3>Advantages</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Provides a strong indicator of liveness.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Harder to spoof compared to optical methods.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Limitations</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Can be affected by the ambient temperature.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>May not work well with materials that retain heat.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br />
+                        <h3><strong class="fs-5">4. </strong>Ultrasonic Liveness Detection</h3>
+                        <p>Ultrasonic scanners are considered to be more secure than optical and capacitive scanners. Standard ultrasonic methods use a transmitter, which releases high-frequency acoustic signals towards the fingerprint. A receiver detects the echo signals affected by the interaction from the fingerprint. It is important to note that the receiver utilizes the fact that the skin(ridges to be specific) and the air (valleys) have differences in the sound wave interference, making the echo signals reflect and diffract differently in the contract area.  Keep in mind that this approach with liveness testing capabilities among its principles utilizes the fact that sound waves are not just reflected and diffracted, they are also subject to some additional scattering & transformation.</p>
+                        <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/Ultrasonic_Liveness_Detection.png" alt="Ultrasonic Liveness Detection" title="Ultrasonic Liveness Detection" />
+                        <p class="mt-2"><strong>Source: </strong><a style="word-wrap: break-word;" href="https://www.google.co.in/books/edition/_/T3WfDwAAQBAJ?hl=en&gbpv=1">https://www.google.co.in/books/edition/_/T3WfDwAAQBAJ?hl=en&gbpv=1</a></p>
+                        <h3>Advantages</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>High accuracy in detecting liveness</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Capable of reading through the dirt, moisture, and other contaminants</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Limitations</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>More expensive and complex to implement</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>May require more power, and face limitations to use in portable devices.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br />
+                        <h3><strong class="fs-5">5. </strong>Multispectral Imaging</h3>
+                        <p>Multispectral imaging captures fingerprint images using various wavelengths of light, including visible and infrared. This technique allows for the analysis of both surface and subsurface features, making it possible to detect liveness by distinguishing genuine fingerprints from fake ones. By examining the fingerprint's layers in detail, multispectral imaging enhances security and accuracy in biometric systems, ensuring that the fingerprint being scanned is from a living individual and not a replica or spoof.</p>
+                        <img class="img-fluid" src="~/Assets/Images/blog/2024/10/Howfakefingerprintdetectionworks/Multispectral_Imaging.png" alt="Multispectral Imaging" title="Multispectral Imaging" />
+                        <p class="mt-2"><strong>Source: </strong><a style="word-wrap: break-word;" href="https://www.google.co.in/books/edition/_/T3WfDwAAQBAJ?hl=en&gbpv=1">https://www.google.co.in/books/edition/_/T3WfDwAAQBAJ?hl=en&gbpv=1</a></p>
+                        <h3>Advantages</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Highly efficient in differentiating between real and fake fingerprints</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Works well across different skin tones and conditions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Limitations</h3>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Complex & costly technology</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="blog_sub_point_box">
+                                    <p>Can be slower than other technology as it needs more scans</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Choosing the right liveness detection method is essential, you have to keep in mind that the method you’re planning to use should cover your every requirement. Remember that each of these methods has its strengths and benefits. To ensure optimal security, relying on a single technique isn't enough. It is recommended to combine multiple methods and provide a more effective layer of security against fingerprint spoofing.</p>
+                        <hr />
+                        <h2 id="Future_of_Fake_Fingerprint_Detection">The Future of Fake Fingerprint Detection</h2>
+                        <p>As the technology advances, the fingerprint spoofing methods will also need to evolve. Here are the key trends that you need to watch out for : </p>
+                        <h3>AI & Machine Learning</h3>
+                        <p>It will be easier to detect the fingerprint spoofing attempts with the help of AI and ML with advanced accuracy and speed along with the advanced data analysis.</p>
+                        <h3>Everyday Integration</h3>
+                        <p>As fingerprints are now part of our daily lives, it will be vital to have more affordable and effective detection methods for devices that we use every day such as smartphones and smart home systems.</p>
+                        <h3>Multimodal Biometrics</h3>
+                        <p>It is always recommended to rely on more than one biometric for an extra layer of protection. You can combine various authentication methods such as an iris scanner with a fingerprint scanner for strengthening security.</p>
+                        <h3>Ongoing Innovations</h3>
+                        <p>Last but not the least, is the ongoing innovations. Continuous advancements are necessary to stay ahead of evolving fingerprint spoofing techniques. By developing and refining detection methods, we can outpace new threats and ensure robust security against the rapidly increasing sophisticated fingerprint spoofing attack.</p>
+
+                        <hr />
+                        <h2 id="Conclusion">Conclusion</h2>
+                        <p>The threat of fingerprint spoofing is a growing concern for biometric security. It is essential to understand the nature of these threats and the various detection methods available for securing the sensitive information and preventing any unauthorized access. By continually improving detection technologies & employing a multi-layered approach, we can enhance the security of fingerprint recognition systems and protect against the risks associated with spoofing. As technology evolves, so must our strategies for ensuring the integrity of biometric systems, making ongoing research and development a priority for the future.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        @Html.Partial("~/Views/Blog/_rightPartial.cshtml")
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="table_of_content_box">
+                            <span><strong>Table of Contents</strong></span>
+                            <a href="#An_overview">An Overview</a>
+                            <a href="#What_are_the_Fake_Fingerprins">What are the Fake Fingerprints</a>
+                            <a href="#Risks_Associated_with_Fingerprint_Spoofing">Risks Associated with Fingerprint Spoofing</a>
+                            <a href="#Science_behind_Fake_Fingerprint_Detection">Science behind Fake Fingerprint Detection</a>
+                            <a href="#Methods_of_Fake_Fingerprint_Detection">Methods of Fake Fingerprint Detection</a>
+                            <a href="#Future_of_Fake_Fingerprint_Detection">Future of Fake Fingerprint Detection</a>
+                            <a href="#Conclusion">Conclusion</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section bottom_allpages{
+
+    <script src="@Url.Content("~/Assets/Plugin/Jquery-Core-3.7.1/jquery-3.7.1.min.js")"></script>
+    <script>
+        $(document).ready(function () {
+            var offset = -100; // Negative offset value
+
+            $('.table_of_content_box a[href^="#"]').on('click', function (event) {
+                event.preventDefault(); // Prevent default anchor click behavior
+
+                var target = this.hash; // Get the hash part (id) from the clicked link
+                var $target = $(target); // Get the target div
+
+                if ($target.length) { // Check if the target exists
+                    $('html, body').animate({
+                        scrollTop: $target.offset().top + offset
+                    }, 200); // Adjust scroll speed if necessary
+                }
+            });
+        });
+    </script>
+}
+
+
+

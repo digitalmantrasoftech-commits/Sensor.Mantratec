@@ -1,0 +1,843 @@
+﻿.product_poster_section {
+    background-color: var(--ma-body-bg);
+    padding: 100px 0
+}
+
+    .product_poster_section img {
+        max-width: 500px;
+        max-height: 500px
+    }
+
+    .product_poster_section h1 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-greeting-title);
+        font-weight: 700;
+        margin-bottom: 10px
+    }
+
+    .product_poster_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-greeting-title);
+        font-weight: 700;
+        margin-bottom: 10px
+    }
+
+    .product_poster_section p {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-subject-title);
+        width: 100%;
+        margin-bottom: 30px
+    }
+
+.product_action_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.action_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center !important;
+    justify-content: center !important
+}
+
+    .action_box i {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        margin-bottom: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+
+    .action_box p {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-body-text);
+        width: 100%;
+        margin-bottom: 0;
+        text-align: center
+    }
+/*----------------------------------------------------------------------------------------*/
+.product_images_section {
+    background-color: var(--ma-white);
+    padding: 50px 0
+}
+
+.box_contain_part {
+    padding-left: 20px;
+    border-left: 5px solid var(--ma-type-primary)
+}
+/*----------------------------------------------------------------------------------------*/
+.application_section {
+    background-color: var(--ma-body-bg);
+    padding: 50px 0
+}
+
+    .application_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+.application_box {
+    display:block;
+    position:relative;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+    .application_box i {
+        position: absolute;
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin-bottom: 0;
+        font-size: 13px;
+        left: 0px;
+        top: 0px;
+        color: var(--ma-type-primary);
+        font-weight:bold;
+    }
+
+    .application_box p {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-body-text);
+        width: 100%;
+        margin-bottom: 0;
+    }
+/*----------------------------------------------------------------------------------------*/
+.optical_finger_scanner_section {
+    background-color: var(--ma-body-bg);
+    padding: 50px 0;
+    background-image: url(../../../Assets/Images/Products/MELO31/optical-finger-scanner-bg.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    position: relative
+}
+
+    .optical_finger_scanner_section:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: var(--ma-body-bg);
+        opacity: .5
+    }
+
+    .optical_finger_scanner_section > .container {
+        position: relative;
+        z-index: 10
+    }
+
+    .optical_finger_scanner_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700
+    }
+
+    .optical_finger_scanner_section h3 {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-header);
+        width: 100%;
+        margin-bottom: 30px
+    }
+
+.dual_iris_scanner_box h4, .dual_iris_scanner_box p {
+    font-size: var(--ma-metadata);
+    width: 100%;
+    margin-bottom: 0
+}
+
+.optical_finger_scanner_section img {
+    max-width: 400px;
+    max-height: 400px
+}
+
+.dual_iris_scanner_list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important
+}
+
+.dual_iris_scanner_box {
+    padding: 5px 10px 5px 0;
+    border-right: 1px solid var(--ma-type-secondary);
+    margin-right: 10px;
+    margin-top: 20px
+}
+
+.dual_iris_scanner_list :last-child {
+    border-right: none
+}
+
+.dual_iris_scanner_box h4 {
+    color: var(--ma-type-primary)
+}
+
+.dual_iris_scanner_box p {
+    color: var(--ma-type-secondary)
+}
+/*----------------------------------------------------------------------------------------*/
+.features_section {
+    background-color: var(--ma-white);
+    padding: 50px 0
+}
+
+    .features_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+
+.features_box {
+    padding: 0 0 0 70px;
+    min-height: 70px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    margin-bottom: 20px
+}
+
+    .features_box i {
+        position: absolute;
+        left: 0;
+        height: 50px;
+        width: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+
+    .features_box p {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-body-text);
+        width: 100%;
+        position: relative;
+        margin-bottom: 0
+    }
+/*----------------------------------------------------------------------------------------*/
+.product_video_section {
+    background-color: var(--ma-body-bg);
+    padding: 50px 0;
+    background-image: url(../../../Assets/Images/Products/MELO31/product-video-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+    .product_video_section img {
+        max-height: 400px
+    }
+/*----------------------------------------------------------------------------------------*/
+.high_performance_section {
+    background-color: var(--ma-white);
+    padding: 0 0 50px
+}
+
+    .high_performance_section img {
+        max-height: 400px
+    }
+
+    .high_performance_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700
+    }
+
+    .high_performance_section h3 {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-header);
+        width: 100%;
+        margin-bottom: 30px
+    }
+
+    .high_performance_section p {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-body-text);
+        width: 100%;
+        margin-bottom: 10px
+    }
+
+.product_hardware_box h4, .product_hardware_box p {
+    font-size: var(--ma-metadata);
+    width: 100%;
+    margin-bottom: 0
+}
+
+.product_hardware_list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important
+}
+
+.product_hardware_box {
+    padding: 5px 10px 5px 0;
+    border-right: 1px solid var(--ma-type-secondary);
+    margin-right: 10px;
+    margin-top: 20px
+}
+
+.product_hardware_list :last-child {
+    border-right: none
+}
+
+.product_hardware_box h4 {
+    color: var(--ma-type-primary)
+}
+
+.product_hardware_box p {
+    color: var(--ma-type-secondary)
+}
+/*----------------------------------------------------------------------------------------*/
+.system_requirements_section {
+    background-color: var(--ma-body-bg);
+    padding: 50px 0 0;
+    background-image: url(../../../Assets/Images/Products/MORPHS/System-Requirements-bg.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 700px;
+    position: relative
+}
+
+    .system_requirements_section:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: var(--ma-body-bg);
+        opacity: .5
+    }
+
+    .system_requirements_section > .container {
+        position: relative;
+        z-index: 10
+    }
+
+    .system_requirements_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+
+    .system_requirements_section h3 {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-header);
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+
+.system_requirements_list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.system_requirements_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center !important;
+    justify-content: center !important
+}
+
+    .system_requirements_box i {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        margin-bottom: 10px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat
+    }
+
+.maicon_morfin_sdk {
+    background-image: url(/Assets/Images/Products/MELO31/morfin_sdk.svg)
+}
+
+.system_requirements_box h3 {
+    color: var(--ma-type-primary);
+    font-size: var(--ma-header);
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.system_requirements_box p {
+    color: var(--ma-type-secondary);
+    font-size: var(--ma-body-text);
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center
+}
+
+.system_requirements_section .system_requirements_img {
+    background-image: url(../../../Assets/Images/Products/MELO31/System-Requirements-1.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 400px;
+    width: 100%;
+    transition: 1s;
+    margin-top: -200px
+}
+/*----------------------------------------------------------------------------------------*/
+.product_certification_section {
+    background-color: var(--ma-white);
+    padding: 50px 0
+}
+
+    .product_certification_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+
+    .product_certification_section h3 {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-header);
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+
+    .product_certification_section img {
+        filter: grayscale(100%)
+    }
+
+.certification_list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    margin-top: 50px
+}
+
+.certification_box {
+    border: 1px solid var(--ma-type-secondary);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center !important;
+    align-items: center !important
+}
+
+    .certification_box i {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+
+.maicon_fap30 {
+    background-image: url(/Assets/Images/Products/MELO31/FAP30.svg)
+}
+/*----------------------------------------------------------------------------------------*/
+.acquisition_section {
+    background-color: var(--ma-body-bg);
+    padding: 0 0 50px;
+    overflow: hidden
+}
+
+    .acquisition_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 50px
+    }
+
+.acquisition_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px
+}
+
+    .acquisition_box img {
+        max-height: 200px
+    }
+
+    .acquisition_box h3 {
+        color: var(--ma-type-primary);
+        font-size: var(--ma-header);
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 0;
+        text-align: center
+    }
+
+    .acquisition_box p {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-body-text);
+        width: 100%;
+        margin-bottom: 0;
+        text-align: center;
+        min-height: 50px
+    }
+
+.acquisition_heand_box {
+    position: relative;
+    height: 100%;
+    width: 100%
+}
+
+    .acquisition_heand_box:before {
+        content: "";
+        background-image: url(/Assets/Images/Products/MELO31/device_drawing.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        position: absolute;
+        top: 0;
+        bottom: -70px;
+        left: 0;
+        right: 0
+    }
+/*----------------------------------------------------------------------------------------*/
+.easy_use_to_set_up_section {
+    background-color: var(--ma-white);
+    padding: 50px 0
+}
+
+    .easy_use_to_set_up_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+
+    .easy_use_to_set_up_section h3 {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-header);
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .easy_use_to_set_up_section p.list_point {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-body-text);
+        width: 100%;
+        padding-left: 20px;
+        position: relative;
+        margin-bottom: 5px
+    }
+
+        .easy_use_to_set_up_section p.list_point:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 7px;
+            height: 7px;
+            width: 7px;
+            background-color: var(--ma-type-secondary);
+            border-radius: 100%
+        }
+/*----------------------------------------------------------------------------------------*/
+.supported_operating_section {
+    background-color: var(--ma-body-bg);
+    padding: 50px 0
+}
+
+    .supported_operating_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+
+    .supported_operating_section h3 {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-header);
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .operating_systems_box p, .supported_operating_section p, .supported_operating_section p.list_point {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-body-text)
+    }
+
+    .supported_operating_section p {
+        width: 100%;
+        margin-bottom: 10px
+    }
+
+        .supported_operating_section p.list_point {
+            width: 100%;
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 5px
+        }
+
+            .supported_operating_section p.list_point:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 7px;
+                height: 7px;
+                width: 7px;
+                background-color: var(--ma-type-secondary);
+                border-radius: 100%
+            }
+
+.operating_systems_list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px
+}
+
+.operating_systems_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center !important;
+    justify-content: center !important
+}
+
+    .operating_systems_box i {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        margin-bottom: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+
+    .operating_systems_box p {
+        width: 100%;
+        margin-bottom: 0;
+        text-align: center
+    }
+/*----------------------------------------------------------------------------------------*/
+.specification_section {
+    background-color: var(--ma-white);
+    padding: 50px 0
+}
+
+    .specification_section h2 {
+        color: var(--ma-grey160);
+        font-size: var(--ma-page-title);
+        margin-bottom: 0;
+        font-weight: 700
+    }
+
+    .specification_section h3 {
+        color: var(--ma-type-primary);
+        font-size: var(--ma-header);
+        width: 100%;
+        font-weight: 700;
+        margin-bottom: 20px
+    }
+
+.specification_box {
+    margin-bottom: 20px
+}
+
+    .specification_box p {
+        color: var(--ma-type-secondary);
+        font-size: var(--ma-body-text);
+        width: 100%;
+        position: relative;
+        margin-bottom: 0
+    }
+/*----------------------------------------------------------------------------------------*/
+.get_in_touch_section {
+    background-image: url(../../../Assets/Images/home/get-in-touch.png);
+    background-color: var(--ma-body-bg);
+    padding: 50px 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: unset
+}
+
+.getin_contact_us_btn, .getin_view_solution_btn {
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: var(--ma-body-text)
+}
+
+.get_in_touch_section h3 {
+    color: var(--ma-type-secondary);
+    font-size: var(--ma-header);
+    width: 100%;
+    margin-bottom: 0
+}
+
+.get_in_touch_section h2 {
+    color: var(--ma-type-secondary);
+    font-size: var(--ma-page-title);
+    margin-bottom: 10px
+}
+
+.get_in_touch_section p {
+    color: var(--ma-type-secondary);
+    margin-bottom: 0px
+}
+
+.getin_contact_us_btn {
+    border: 1px solid var(--ma-type-primary);
+    background-color: var(--ma-type-primary);
+    color: var(--ma-white);
+    border-radius: 7px;
+    margin-bottom: 10px
+}
+
+    .getin_contact_us_btn:active, .getin_contact_us_btn:focus, .getin_contact_us_btn:hover {
+        border: 1px solid var(--ma-type-primary);
+        background-color: #fff0;
+        color: var(--ma-type-primary);
+        transition: .3s
+    }
+
+.getin_view_solution_btn {
+    border: 1px solid var(--ma-type-secondary);
+    background-color: #fff0;
+    color: var(--ma-type-secondary);
+    border-radius: 7px;
+    margin-bottom: 10px
+}
+
+    .getin_view_solution_btn:active, .getin_view_solution_btn:focus, .getin_view_solution_btn:hover {
+        border: 1px solid var(--ma-type-secondary);
+        background-color: var(--ma-type-secondary);
+        color: var(--ma-white);
+        transition: .3s
+    }
+/*-------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1400px) {
+    .product_poster_section img {
+        max-width: 100%;
+        max-height: unset
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .product_poster_section {
+        padding: 70px 0
+    }
+
+    .system_requirements_section .system_requirements_img {
+        background-size: 100%
+    }
+}
+
+@media screen and (max-width:992px) {
+    .product_poster_section {
+        padding: 50px 0
+    }
+
+    .system_requirements_section {
+        background-size: 100% 500px;
+        padding: 50px 0;
+        background-position: bottom -220px center
+    }
+
+        .system_requirements_section .system_requirements_img {
+            background-size: auto 100%;
+            height: 100%;
+            margin-top: 50px
+        }
+}
+
+@media screen and (max-width:768px) {
+    .product_poster_section {
+        padding: 0 0 50px
+    }
+
+    .product_images_section {
+        text-align: center
+    }
+
+        .product_images_section img {
+            max-height: 200px;
+            max-width: 200px
+        }
+
+    .optical_finger_scanner_section img {
+        max-width: 100%;
+        max-height: unset;
+        margin-top: 20px
+    }
+
+    .acquisition_box, .high_performance_section img {
+        margin-bottom: 20px
+    }
+
+    .system_requirements_section .system_requirements_img {
+        height: 200px;
+        margin: 50px 0 0
+    }
+
+    .system_requirements_section {
+        background-size: 100% 500px;
+        padding: 50px 0 0;
+        background-position: bottom -270px center
+    }
+
+    .acquisition_box img {
+        max-height: 100px
+    }
+
+    .acquisition_box p {
+        min-height: unset
+    }
+
+    .acquisition_heand_box {
+        min-height: 200px
+    }
+}

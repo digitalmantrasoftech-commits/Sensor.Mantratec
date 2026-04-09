@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "ThankYou";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section metatags{
+    <title>Thank You</title>
+    <meta name="keywords" content="Thank You">
+    <meta name="description" content="Your submission has been received.">
+    <link rel="canonical" href="https://sensor.mantratec.com/Thank-You" />
+    <meta property="og:title" content="Thank You" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sensor.mantratec.com/Thank-You" />
+    <meta property="og:image" content="https://sensor.mantratec.com/Assets/Images/.jpg" />
+    <meta property="og:site_name" content="Mantra" />
+    <meta property="fb:app_id" content="1557512364360593" />
+    <meta property="og:description" content="Your submission has been received." />
+    <meta name="twitter:title" content="Thank You" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://sensor.mantratec.com/Thank-You" />
+    <meta name="twitter:image" content="https://sensor.mantratec.com/Assets/Images/.jpg" />
+    <meta name="twitter:description" content="Your submission has been received." />
+}
+@section top_allpages{
+    <link href="@Url.Content("~/Assets/CSS/pages/ThankYou.css")" rel="stylesheet" />
+}
+
+<section class="thank_you_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="thank_you_box">
+                    <img src="~/Assets/Images/thankyou/thank-you.png" alt="thank you" title="thank you" />
+                    <h1>Thank You</h1>
+                    <p>Your submission has been received.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section bottom_allpages{
+    @*<script>
+            $(document).ready(function () {
+                var delay = 9000;
+                setTimeout(function () {
+                    window.location = 'https://sensor.mantratec.com/';
+                }, delay);
+            });
+        </script>*@
+}
+
+
